@@ -1,0 +1,95 @@
+
+
+
+@media screen and (max-width: 550px){
+	.logo{
+		width: 30%; 
+		display: table-cell; 
+		/* position:relative; 
+		left: 54%; 
+		top: 2px;  */
+
+	}
+
+    .men{
+        width: 60%;
+        margin: auto;
+    }
+    .woman{
+        width: 60%;
+        margin: auto;
+    }
+
+	.aside{
+		display: inline-block;
+		 position: fixed;
+		  bottom: 376px;
+		   left: 74%;
+	}
+	.aside_movil{
+        display: block;
+        width: 100%;
+        position: relative;
+        left: 25%;
+	}
+	.aside_pc{
+        display: block;
+        width: 100%;
+        position: relative;
+        left: 25%;
+        top:10px;
+    }
+
+
+	.cart{
+		position: relative;
+		top: 6px;
+		left: 46%;
+		margin-bottom: 8px;
+        width: 10%;
+	}
+	#lista_art{
+		position: relative;
+		/* top: 26px; */
+		/* left: 42%;*/
+	}
+
+
+	.article{
+	    display: block;
+	    margin-top: 3%;
+	}
+	.padre{
+		display:block;
+		 width:100%;
+	}
+
+	
+	.atras{
+		height: 15%;
+		position: absolute;
+		left: 2.4%;
+		top: 150px;
+        background: url(../imagenes_predeterminadas/atras.jpeg);
+        background-size: 100% 100%;
+        width: 6%;
+	}
+	.adelante{
+		height: 15%;
+		position: absolute;
+		right: 2.6%;
+		top: 150px;
+        background: url(../imagenes_predeterminadas/adelante.jpeg);
+        background-size: 100% 100%;
+        width: 6%;
+	}
+	.volver{
+		width: 24%;
+		position: absolute;
+		left: 38.4%;
+		margin-top: 1%;
+        margin-bottom: 3%;
+	}
+
+}
+

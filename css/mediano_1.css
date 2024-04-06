@@ -1,0 +1,123 @@
+
+
+
+@media screen and (min-width: 550px) and (max-width: 800px){
+    
+    .header{
+        margin-top: 4%;
+    }
+	.logo{
+		width: 30%; 
+		display: table-cell; 
+		-webkit-user-modify: read-write-plaintext-only;
+		image-rendering: -webkit-optimize-contrast;
+
+		/* position:relative; 
+		left: 54%; 
+		top: 2px;  */
+
+	}
+
+	.men{
+		width: 48%;
+		display: block;
+		margin-inline: auto;
+		margin-top:24px;
+		  /* position:relative;
+		   left: 144%;
+		    top: 26px; */
+        flex: auto;
+	}
+
+	.woman{
+		width: 48%;
+		display: block;
+		margin-inline: auto;
+		margin-top:24px;
+		  /* position:relative;
+		   left: 94%;
+		    top: 226px; */
+        flex: auto;
+	}
+
+	
+	.aside{
+		display: block;
+		 /* position: relative;
+		  top: 15px;
+		   left: 2%; */
+	}
+	.aside_movil{
+		display:none;
+	}
+	.aside_pc{
+		display:block;
+	}
+    .contac{
+        text-align: center;
+    }
+    .instagram{
+        text-align: center;
+    }
+    
+
+	.cart{
+		position: relative;
+		top: 6px;
+		left: 48%;
+		margin-bottom: 8px;
+	}
+	#lista_art{
+		position: relative;
+		top: 8px; 
+		left: 32%;
+	}
+
+
+	.article{
+		display: inline-flex;
+		padding-left: 26%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        /* display: -webkit-box;	 */
+        flex-wrap: wrap;
+    }
+	.padre{
+		display:block;
+		 width:31%;
+		 /* margin-inline: auto; */
+		 margin:0% 1% 0% 1%;
+	}
+
+
+	.padre_global{
+		display:block;
+		 width:60%;
+		 margin-inline: auto;
+		 /* margin:0% 1% 0% 1%; */
+	}
+	.atras{
+		height: 15%;
+		position: absolute;
+		left: 20.4%;
+		top: 150px;
+        background: url(../imagenes_predeterminadas/atras.jpeg);
+        background-size: 100% 100%;
+        width: 3%;
+	}
+	.adelante{
+		height: 15%;
+		position: absolute;
+		right: 20.6%;
+		top: 150px;
+        background: url(../imagenes_predeterminadas/adelante.jpeg);
+        background-size: 100% 100%;
+        width: 3%;
+	}
+	.volver{
+		width: 11%;
+		position: absolute;
+		left: 44.6%;
+		margin-top: 1%;
+	}
+}
